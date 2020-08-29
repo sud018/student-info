@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="../css/style.css">
+ <title>SIGN UP FORM</title>
+
+
+
+</head>
+<body >
+<div class="signupbox">
+  <img src="../image/img5.png" class="avatar">
+  <h1> CREATE ACCOUNT </h1>
+  <form class="login_form" action="index.html"
+   method="post" name="form"
+   onsubmit="return validated()">
+
+<p>first name</p>
+<input type="text" placeholder="first name" name="firstname">
+<div id="first_error">fill the first name</div>
+
+<p>last name</p>
+<input type="text" placeholder="last name" name="lastname">
+<div id="last_error">fill the last name</div>
+
+<div class="font1">create username</div>
+<input type="text" placeholder="username" name="username">
+<div id="user_error"> please fill username</div>
+
+
+<div class="font2">email-id</div>
+<input type="text" placeholder="email-id" name="email">
+<div id="email_error">please fill email</div>
+
+<p> create password</p>
+<input type="password" placeholder="password" name="password">
+<div id="pass_error">please fill your password</div>
+<br>
+
+<p> re-enter password</p>
+<input type="password" placeholder="password" name="repassword">
+<div id="repass_error"> both password are not same </div>
+<br>
+<button type="submit">SIGNUP</button>
+<br>
+<a href="index.html">already a member?</a>
+<br>
+
+  </form>
+</div>
+<script src="../js/script.js">
+</script>
+</body>
+</html>
