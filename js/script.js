@@ -125,8 +125,7 @@ function validated()
      }
    }
 
-   var unstring = username.value.length ;
-   var pwstring = password.value.length ;
+  
 
 
 function valid()
