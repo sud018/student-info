@@ -152,13 +152,13 @@ font-size: 18px;
 .login_form #u_error,
 .login_form #p_error
 {
-  margin-top: 5px;
-  width: 345px;
+  margin-top: 1px;
+  width: 300px;
   font-size: 18px;
   color: red;
   background: rgba(255, 0, 0, 0.5);
   text-align: center;
-  padding: 5px 8px;
+  padding: 1px;
   border-radius: 3px;
   border: 1px solid #EF9A9A;
   display: none;
